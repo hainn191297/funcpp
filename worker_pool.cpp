@@ -6,7 +6,7 @@
 #include <mutex>
 #include <condition_variable>
 #include <atomic>
-#include <memory> // Cần thêm để sử dụng unique_ptr
+#include <memory>
 
 class ThreadPool {
 public:
